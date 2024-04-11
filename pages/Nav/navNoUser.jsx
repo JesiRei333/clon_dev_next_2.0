@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 
-export default function NavNoUser() {
+export default function NavNoUser(props) {
   const [texto, setTexto] = useState("");
   const [token, setToken] = useState("");
 
