@@ -6,7 +6,7 @@ import { botonPost } from "@/src/constants/botonPostImg";
 import { useForm } from "react-hook-form";
 import { useRouter } from "next/router";
 
-export default function Post(props) {
+export default function CreatePost(props) {
   const router = useRouter();
 
   const {
