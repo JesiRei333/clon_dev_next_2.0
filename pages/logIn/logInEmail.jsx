@@ -37,7 +37,7 @@ export default function LogInEmail(props) {
       localStorage.setItem("token", json.token);
 
       console.log("Login Exitoso");
-      router.push("/usuarioIndex");
+      router.push("/userIndex");
       return;
     }
     console.log("Usuario o contraseña inválidos");
@@ -86,7 +86,7 @@ export default function LogInEmail(props) {
               </div>
             );
           })}
-          <div>
+          <div className="">
             <OrLinea />
           </div>
           <form name="form" className="" onSubmit={handleSubmit(onSubmit)}>
@@ -175,7 +175,7 @@ export default function LogInEmail(props) {
                   New to DEV Community?{" "}
                   <span className="text-[rgb(59_73_223)] font-normal">
                     {" "}
-                    <Link href="/enter"> Create account.</Link>
+                    <Link href="/createAccount"> Create account.</Link>
                   </span>
                 </div>
               </div>

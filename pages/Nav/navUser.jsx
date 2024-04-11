@@ -22,7 +22,7 @@ export default function NavUser(props) {
         </div>
 
         <div className="pr-[16px]">
-          <Link href="/usuarioIndex">
+          <Link href="/userIndex">
             <div className="flex justify-center align-middle max-h-[40px] min-w-[50px]  ">
               <Image
                 className=""

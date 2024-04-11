@@ -7,3 +7,8 @@ export default function App({ Component, pageProps }) {
     </main>
   );
 }
+export async function getStaticProps(ctx) {
+  return {
+    props: {},
+  };
+}
