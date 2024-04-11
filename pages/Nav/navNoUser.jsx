@@ -88,7 +88,7 @@ export default function NavNoUser(props) {
           </div>
 
           <div className="">
-            <Link href="/createAccount">
+            <Link href="/logIn">
               <button className="hover:bg-[rgb(59_73_223)] p-[8px_16px] min-w-[95px] text-center text-[rgb(59_73_223)] hover:text-[rgb(255_255_255)] border-[rgb(59_73_223)] border-2 rounded-lg  font-semibold">
                 Create account
               </button>

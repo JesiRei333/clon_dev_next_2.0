@@ -175,7 +175,7 @@ export default function LogInEmail(props) {
                   New to DEV Community?{" "}
                   <span className="text-[rgb(59_73_223)] font-normal">
                     {" "}
-                    <Link href="/createAccount"> Create account.</Link>
+                    <Link href="/logIn"> Create account.</Link>
                   </span>
                 </div>
               </div>
