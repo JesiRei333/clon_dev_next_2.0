@@ -36,6 +36,21 @@ export const botonPost = [
   },
   {
     id: 8,
+    icono: "https://cdn-icons-png.flaticon.com/512/25/25185.png",
+    alt: "mayor menor que",
+  },
+  {
+    id: 9,
+    icono: "https://cdn-icons-png.flaticon.com/512/3934/3934021.png",
+    alt: "mayormenorque rectangulo",
+  },
+  {
+    id: 10,
+    icono: "https://cdn-icons-png.flaticon.com/512/2731/2731634.png",
+    alt: "rayo",
+  },
+  {
+    id: 11,
     icono: "https://cdn-icons-png.flaticon.com/512/8618/8618478.png",
     alt: "imagenFoto",
   },

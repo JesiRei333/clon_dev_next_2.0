@@ -51,7 +51,7 @@ export default function CreatePost(props) {
               />
             </div>
           </Link>
-          <div className="p-4">Create Post</div>
+          <div className="p-4 font-semibold">Create Post</div>
         </div>
 
         <div className="flex flex-row pl-80   ">
@@ -113,13 +113,13 @@ export default function CreatePost(props) {
             <div className=" p-2 ">Add up 4 tags...</div>
             <div
               id="botones "
-              className="flex flex-row justify-center w-[100%] h-[50px] pl-5 bg-[rgb(245_245_245)]"
+              className="flex flex-row  w-[100%] h-[50px]  bg-[rgb(245_245_245)]"
             >
               {botonPost.map((item, index) => {
                 return (
                   <div
                     key={`DivPost-${index}`}
-                    className=" rounded-md flex items-center  text-justify align-middle text-sm font-semibold "
+                    className=" rounded-md flex items-center  pl-2 text-justify align-middle text-sm font-semibold "
                     id="redes"
                   >
                     <BotonPost
