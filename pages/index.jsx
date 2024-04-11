@@ -202,7 +202,7 @@ export default function Home(props) {
                 return (
                   <Link
                     key={`extoConHiperLink-${index}`}
-                    href={`/detallesDepost/${posT._id}`}
+                    href={`/post/${posT._id}`}
                   >
                     <div key={`extoConHiperDiv-${index}`} className="border-2">
                       <PostMid

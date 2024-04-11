@@ -30,7 +30,7 @@ export default function CreatePost(props) {
     }).then((response) => response.json());
 
     reset();
-    router.push("/usuarioIndex");
+    router.push("/userIndex");
     return;
   }
 

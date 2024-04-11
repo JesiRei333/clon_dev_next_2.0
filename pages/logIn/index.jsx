@@ -68,7 +68,7 @@ export default function LogIn(props) {
         <div className="w-min-[40px]  h-min-[40px] flex justify-center items-center text-justify align-middle text-base font-normal min-w-[580px] max-h-[580px] text-[rgb(23_23_23)] not-italic border-t-2 p-3">
           Already have an account?{" "}
           <span className="text-[rgb(59_73_223)] font-normal">
-            <Link href="/enter/enterEmail"> Log in. </Link>
+            <Link href="/logIn/logInEmail"> Log in. </Link>
           </span>
         </div>
       </div>

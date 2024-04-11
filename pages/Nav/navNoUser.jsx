@@ -80,7 +80,7 @@ export default function NavNoUser(props) {
           </div>
 
           <div className="">
-            <Link href="/logIn/logInEmail">
+            <Link href="/logIn">
               <button className="hidden md:flex hover:bg-[rgb(59_73_223/10%)] p-[8px_16px] text-center min-w-[39px] hover:text-[rgb(47_58_178)] rounded-md">
                 Log in
               </button>
