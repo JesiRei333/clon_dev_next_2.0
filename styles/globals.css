@@ -7,3 +7,41 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+
+body {
+  background-color: 245, 245, 245, 1;
+}
+
+#contenedorSerch {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#parrafoAsideI {
+  padding-left: 6px;
+}
+
+#imagenBecome {
+  padding-left: 50px;
+}
+
+#imagenPerfil {
+  border-radius: 100%;
+}
+
+#tituloPost {
+  font-size: 1.5rem;
+  color: rgb(9, 9, 9);
+}
+
+#hora {
+  align-items: center;
+  padding-left: 150px;
+  font-size: 11px;
+}
+#titulo {
+  text-align: start;
+  justify-self: center;
+  font-size: 18px;
+  text-decoration: underline;
+}

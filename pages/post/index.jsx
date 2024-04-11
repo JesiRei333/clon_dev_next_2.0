@@ -1,4 +1,4 @@
-export default function PostMid(props) {}
+export default function detallesPostNoUser(props) {}
 export async function getStaticProps(ctx) {
   return {
     props: {},
