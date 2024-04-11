@@ -2,10 +2,10 @@ import Image from "next/image";
 export default function DevAsideLComuni() {
   return (
     <div
-      className="flex flex-col align-middle  justify-stretch text-justify text-base pl-[8px]  
+      className="flex flex-col align-middle bg-[rgb(255_255_255)]  justify-stretch text-justify text-base pl-[8px]  
     w-[300px] max-h-[23.983px]  rounded-md p-[8px_16px] text-[rgb(64_64_64)] "
     >
-      <div className="flex flex-row align-middle items-center justify-around text-justify pb-[16px] ">
+      <div className="flex flex-row align-middle bg-[rgb(255_255_255)] items-center justify-around text-justify pb-[16px] ">
         <div className="flex pb-[16px]">
           <p className="">DEV Community</p>
         </div>

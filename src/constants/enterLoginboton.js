@@ -29,7 +29,7 @@ export const enterLoginBoton = [
   },
   {
     id: 5,
-    link: "/logIn/logInEmail",
+    link: "/createAccount",
     contenido: "Sing up with Email",
     imagen: "https://cdn-icons-png.flaticon.com/512/2915/2915744.png",
     alt: "email",

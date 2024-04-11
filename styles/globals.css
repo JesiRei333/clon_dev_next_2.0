@@ -12,6 +12,10 @@ body {
   background-color: rgb(245, 245, 245);
 }
 
+.fondo {
+  background-color: rgb(255, 255, 255);
+}
+
 #contenedorSerch {
   padding-left: 16px;
   padding-right: 16px;

@@ -7,7 +7,7 @@ export default function NavUser(props) {
   const [token, setToken] = useState("");
 
   return (
-    <nav className=" fixed flex justify-center bg-[rgb(245_245_245)] border-[1.5px] min-h-[55.990px] min-w-full align-middle ">
+    <nav className=" fixed flex justify-center bg-[rgb(255_255_255)] border-[1.5px] min-h-[55.990px] min-w-full align-middle ">
       <div className="flex relative justify-center align-middle items-center ">
         <div className="flex justify-center align-middle max-h-[40px] max-w-[50px]  ">
           <div className="pr-[16px] md:hidden">

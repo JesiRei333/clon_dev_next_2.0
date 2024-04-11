@@ -45,7 +45,7 @@ export default function LogInEmail(props) {
   }
 
   return (
-    <main className=" h-full w-full min-h-screen min-w-screen align-middle justify-center  ">
+    <main className=" h-full bg-[rgb(255_255_255)] w-full min-h-screen min-w-screen align-middle justify-center  ">
       <div
         className="flex h-full w-full min-h-[530px] min-w-screen   items-center  align-middle flex-col  rounded-md pt-10
     "

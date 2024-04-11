@@ -44,11 +44,11 @@ export default function CreateAcount(props) {
       <NavNoUser />
       <div className=" h-full w-full min-h-screen min-w-screen   ">
         <div
-          className="flex w-[710px] h-[100%] min-w-screen  align-middle rounded-md 
+          className="flex w-[710px] h-[100%] min-w-screen align-middle rounded-md 
         pt-[6rem] ml-auto mr-auto text-[rgb(23_23_23)"
         >
           <div
-            className="flex flex-col w-[546px] h-[100%] border-2 min-w-screen   align-middle rounded-md 
+            className="flex flex-col w-[546px] h-[100%] border-2 min-w-screen  bg-[rgb(255_255_255)] align-middle rounded-md 
         p-[32px]  ml-auto mr-auto text-[rgb(23_23_23)]
     "
           >

@@ -5,7 +5,7 @@ import { enterLoginBoton } from "@/src/constants/enterLoginboton";
 
 export default function LogIn(props) {
   return (
-    <main className=" h-full w-full min-h-screen min-w-screen align-middle justify-center  ">
+    <main className=" h-full w-full min-h-screen bg-[rgb(255_255_255)] min-w-screen align-middle justify-center  ">
       <div
         className="flex h-full w-full min-h-[580px] min-w-screen   items-center  align-middle flex-col  rounded-md pt-10
     "

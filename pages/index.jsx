@@ -54,7 +54,7 @@ export default function Home(props) {
         <div className="flex justify-center   ">
           <div
             id="divL"
-            className=" hidden md:flex flex-col min-w-[208.021px] h-full p-[16px] pr-[0px]"
+            className=" hidden md:flex flex-col min-w-[208.021px] h-full  p-[16px] pr-[0px]"
           >
             <div className="p-[8px_16px] pr-[5px] min-w-[208px] min-h-[23.983px] rounded-md no-underline ">
               {parrafo.map((item, index) => {
@@ -130,9 +130,9 @@ export default function Home(props) {
                 );
               })}
             </div>
-            <div className="p-[8px_16px] max-w-[251.984px] pr-[5px] align-middle  no-underline border-[0.5px] border-[rgba(82,82,82,0.14)]  ">
+            <div className="p-[8px_16px] max-w-[251.984px] rounded-md bg-[rgb(255_255_255)]  align-middle  no-underline border-[0.5px] border-[rgba(82,82,82,0.14)]  ">
               {" "}
-              <DevAsideLComuni className="hover:underline font-normal" />
+              <DevAsideLComuni className="hover:underline font-normal bg-[rgb(255_255_255)]" />
             </div>
           </div>
 
@@ -180,7 +180,7 @@ export default function Home(props) {
                 })}{" "}
               </div>
             </header>
-            <div className="flex flex-col min-w-[610.656px] items-center align-middle border mb-1 justify-center p-[40px]  ">
+            <div className="flex flex-col min-w-[610.656px] bg-[rgb(255_255_255)] rounded-md items-center align-middle border mb-1 justify-center p-[40px]  ">
               <Image
                 className="rounded-md"
                 src={
@@ -197,14 +197,17 @@ export default function Home(props) {
               </p>
             </div>
 
-            <div className=" flex flex-col border-[0.5px] max-w-[555.656px]  md:min-w-[610.656px] pl-20 sm:pl-12 md:pl-0  border-[rgba(82,82,82,0.14)] rounded-md mb-1 ">
+            <div className=" flex flex-col max-w-[555.656px]  md:min-w-[610.656px] pl-20 sm:pl-12 md:pl-0  border-[rgba(82,82,82,0.14)] rounded-lg mb-1 ">
               {post.data.map((posT, index) => {
                 return (
                   <Link
                     key={`extoConHiperLink-${index}`}
                     href={`/post/${posT._id}`}
                   >
-                    <div key={`extoConHiperDiv-${index}`} className="border-2">
+                    <div
+                      key={`extoConHiperDiv-${index}`}
+                      className="border-[1.5px] rounded-md bg-[rgb(255_255_255)] "
+                    >
                       <PostMid
                         key={`extoConHiper-${index}`}
                         className="flex hover:bg-[rgba(113,234,139,0.14)] hover:border-1 p-[8px_16px]  "
@@ -217,15 +220,15 @@ export default function Home(props) {
             </div>
           </div>
           <div
-            id="divR"
-            className="hidden lg:flex flex-col max-w-[301.368px] min-w-[321.368px] h-full gap-[4px]  pt-[16px]"
+            id="divR "
+            className="  hidden lg:flex flex-col max-w-[301.368px] min-w-[321.368px] h-full gap-[4px]  pt-[16px]"
           >
-            <div className="max-h-[454px] min-w-[301.368px] border-2 p-[8px_16px] mb-3">
+            <div className="min-h-[460px]  bg-[rgb(255_255_255)] rounded-md min-w-[301.368px] border-[1.5px] p-[8px_16px] mb-3">
               <p className="font-bold text-xl">🥰 Challenges</p>
               <AsideRScroll className="text-base font-bold" />
             </div>
             <div>
-              <div className="max-h-[644px] min-w-[301.368px]  p-[8px_16px] border-[0.5px] border-[rgba(82,82,82,0.14)]  pt-[8px]  mb-3">
+              <div className="max-h-[650px] min-w-[301.368px] border-1 rounded-md bg-[rgb(255_255_255)]  p-[8px_16px] border-[0.5px] border-[rgba(82,82,82,0.14)]  pt-[8px]  mb-3">
                 <p className="font-bold text-xl">#discuss</p>
                 <p className="text-xs">
                   Discussion threads targeting the whole community
@@ -248,7 +251,7 @@ export default function Home(props) {
                   );
                 })}
               </div>
-              <div className="max-h-[644px] p-[8px_16px] border-[0.5px] border-[rgba(82,82,82,0.14)] pt-[8px] mb-3">
+              <div className="max-h-[644px] p-[8px_16px] rounded-md bg-[rgb(255_255_255)] border-[0.5px] border-[rgba(82,82,82,0.14)] pt-[8px] mb-3">
                 <p className="font-bold text-xl">#watercooler</p>
                 <p className="text-xs">Light, and off-topic conversation.</p>
                 <br />

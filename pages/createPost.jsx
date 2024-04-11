@@ -36,8 +36,8 @@ export default function CreatePost(props) {
 
   return (
     <main className=" h-full w-full min-h-screen min-w-screen   ">
-      <nav className=" flex justify-center bg-[rgb(245_245_245)] min-h-[55.990px] min-w-full align-middle items-center ">
-        <div className=" flex flex-row justify-center items-center  md:pr-60  ">
+      <nav className=" flex justify-center  min-h-[55.990px] min-w-full align-middle items-center ">
+        <div className=" flex flex-row justify-center  items-center  md:pr-60  ">
           <Link href="/userIndex">
             <div className="flex justify-center align-middle max-h-[40px] min-w-[50px]  ">
               <Image
@@ -69,7 +69,7 @@ export default function CreatePost(props) {
          ml-auto mr-auto text-[rgb(23_23_23)]"
       >
         <div
-          className="flex flex-col justify-start  md:max-w-[506px] lg:max-w-[806px]  border-2 p-[64px]  rounded-md 
+          className="flex flex-col justify-start bg-[rgb(255_255_255)] md:max-w-[506px] lg:max-w-[806px]  border-2 p-[64px]  rounded-md 
           "
         >
           <button
@@ -111,12 +111,15 @@ export default function CreatePost(props) {
               )}
             </div>
             <div className=" p-2 ">Add up 4 tags...</div>
-            <div id="botones " className="flex flex-row pl-5   ">
+            <div
+              id="botones "
+              className="flex flex-row justify-center w-[100%] h-[50px] pl-5 bg-[rgb(245_245_245)]"
+            >
               {botonPost.map((item, index) => {
                 return (
                   <div
                     key={`DivPost-${index}`}
-                    className=" rounded-md flex items-center text-justify align-middle text-sm font-semibold "
+                    className=" rounded-md flex items-center  text-justify align-middle text-sm font-semibold "
                     id="redes"
                   >
                     <BotonPost

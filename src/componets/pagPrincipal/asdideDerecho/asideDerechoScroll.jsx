@@ -2,8 +2,8 @@ import Image from "next/image";
 export default function AsideRScroll() {
   return (
     <div
-      className="flex flex-col align-middle min-w-[301.368px]  justify-stretch text-justify pl-[8px]  
-    w-[300px]  rounded-md p-[8px_16px] text-[rgb(64_64_64)] font-normal"
+      className="flex flex-col align-middle  max-h-[454px]   min-w-[301.368px] bg-[rgb(255_255_255)] justify-stretch text-justify pl-[8px]  
+    w-[300px]  rounded-md p-[8px_16px] pb-0 text-[rgb(64_64_64)] font-normal"
     >
       <p id="parrafoAsideI" className="no-underline font-normal text-base  ">
         Frontend Challenge winners were announced Tuesday

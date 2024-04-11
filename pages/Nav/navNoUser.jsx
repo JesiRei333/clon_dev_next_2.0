@@ -7,7 +7,7 @@ export default function NavNoUser(props) {
   const [token, setToken] = useState("");
 
   return (
-    <nav className=" fixed flex justify-center bg-[rgb(245_245_245)] border-[1.5px] min-h-[55.990px] min-w-full align-middle ">
+    <nav className=" fixed flex justify-center bg-[rgb(255_255_255)] border-[1.5px] min-h-[55.990px] min-w-full align-middle ">
       <div className="flex relative justify-center align-middle items-center ">
         <div className="flex justify-center align-middle max-h-[40px] max-w-[50px]  ">
           <div className="pr-[16px] md:hidden">
@@ -80,7 +80,7 @@ export default function NavNoUser(props) {
           </div>
 
           <div className="">
-            <Link href="/logIn">
+            <Link href="/logIn/logInEmail">
               <button className="hidden md:flex hover:bg-[rgb(59_73_223/10%)] p-[8px_16px] text-center min-w-[39px] hover:text-[rgb(47_58_178)] rounded-md">
                 Log in
               </button>
